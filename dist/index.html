@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK-PAPER-SCISSORS</title>
+    
+    <script type="module" crossorigin src="/assets/index-1c011bbd.js"></script>
+    <link rel="stylesheet" href="/assets/index-bbf2d7de.css">
+  </head>
+  <body
+    class="w-screen h-screen flex flex-col items-center justify-center gap-9 bg-slate-100"
+  >
+    <h1
+      class="text-blue-500 font-bold text-2xl heading-text border-b-2 md:border-yellow-300 md:border-none border-yellow-300"
+    >
+      ROCK-PAPER-SCISSORS
+    </h1>
+
+    <article
+      class="w-full md:w-1/2 min-h-[5rem] shadow-sm main flex items-center justify-center flex-col"
+    >
+      <div class="flex items-center justify-between gap-2 w-full p-5">
+        <span class="selectors text-5xl md:text-7xl">🪨</span>
+        <span class="selectors text-5xl md:text-7xl">🧻</span>
+        <span class="selectors text-5xl md:text-7xl">✂️</span>
+      </div>
+
+      <div class="shadow-sm p-5 w-full">
+        <div class="flex items-center justify-between font-semibold gap-6 my-8">
+          Computer's Choice<span
+            id="choice"
+            class="text-5xl md:text-7xl"
+          ></span>
+        </div>
+        <h3 class="font-bold underline">Score</h3>
+        <div class="flex items-center gap-8 font-semibold">
+          Computer: <span id="computer-score"></span> You:
+          <span id="user-score"></span>
+        </div>
+      </div>
+    </article>
+    <!-- SCRIPT -->
+    
+  </body>
+</html>
